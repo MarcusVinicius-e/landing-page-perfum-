@@ -1,0 +1,30 @@
+@media(max-width: 425px){
+
+    .painel .container{
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        border-radius: 10px;
+        gap: 5px;
+        max-width: 300px;
+    }
+
+    .container .img-perfum{
+        border-radius: 10px 10px 0 0;
+        margin: 0;
+    }
+
+    .container .info{
+        padding:0 0 20px 20px;
+     
+    }
+    .container .info .paragrafo{
+        margin: 10px 0;
+    }
+    .painel .container .preco{
+        padding-bottom: 10px;
+    }
+    .info .btn{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+.painel{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+}
+
+.painel .container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 600px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.img-perfum {
+    max-width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+.painel .container h1{
+    max-width: 80%;
+    line-height: 30px;
+}
+
+.painel .container .paragrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 30px 0 15px;
+    line-height: 23px;
+    max-width: 85%;
+}
+.painel .container .price-down{
+    padding-left: 30px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.info .preco{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.info .preco h2{
+    color: rgb(97, 155, 97);
+    font-size: 30px;
+}
+
+.info .btn{
+    background-color: rgb(65, 84, 65);
+    color:aliceblue;
+    padding: 12px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
